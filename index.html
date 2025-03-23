@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Dunkin' Donuts</title>
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+      <div class="container ">
+        <a class="navbar-brand"  href="./index.html">
+          <img class="img-fluid" src="./assets/logo2.png" alt="logo" style="width: 150px; margin-top: -5px;" >
+        </a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+              <a
+                class="nav-link active fw-semibold"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link fw-semibold" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link fw-semibold" href="./contact.html">ContactUs</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link fw-semibold" href="./about.html">About</a>
+            </li>
+          </ul>
+         <form class="d-flex" role="search" onsubmit="submitForm(event)">
+  <input id="searchInput" class="form-control me-2 rounded-start-0" type="search" placeholder="Search" aria-label="Search">
+  <button class="signin-btn w-50 text-white rounded-end-0" type="submit">Search</button>
+</form>
+          <button
+            class="signin-btn text-white fs-6 px-4 py-1 mx-2"
+            type="button"
+          >
+            SignIn
+          </button>
+        
+          <i class="icon bi bi-cart fs-4" style="color:#a8094e; cursor: pointer;"></i>
+        </div>
+      </div>
+    </nav>
+      
+      <section class="main ">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                   <h1 class="Dunkin">
+                    DUNKIN<span class="title"> 'REWARDS</span>   </h1> 
+     <p class="large">MAKE THE MOST
+OF YOUR DUNKIN' RUN!</p>
+                 
+                   <p class="paragraph">Calling all Dunkin’ fans! Join Dunkin’ Rewards today to enjoy exclusive offers and start earning points toward 
+                     <b>FREE food and drinks.</b>
+                    The more you visit, the more benefits you unlock!</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="offers py-5">
+        <div class="container py-5">
+          <div class="row pt-5">
+            <div class="col-lg-9 m-auto px-3">
+              <div class="row text-center">
+                <div class="col-lg-4">
+                    <img src="./assets/Earn_Points_tab.png" class="img-fluid hover-effect " alt="">
+                    <h4><b>EARN POINTS ANY WAY YOU PAY</b></h4>
+                    <p>Order ahead in the app or scan your Dunkin' Rewards ID in-store to earn 10 points per $1 spent.</p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="./assets/Get_rewards_tab.png" class="img-fluid hover-effect" alt="">
+                  <h4><b>GET REWARDS AND OFFERS</b></h4>
+                  <p>Enjoy exclusive offers and redeem rewards starting at just 150 points — only $15 spent!</p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="./assets/Boosted_status_tab.png" class="img-fluid hover-effect" alt="">
+                  <h4><b>UNLOCK MORE WITH BOOSTED STATUS</b></h4>
+                  <p>Enjoy exclusive offers and redeem rewards starting at just 150 points — only $15 spent!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="meal py-5"style="margin-bottom:100px;">
+        <div class="container text-white py-5">
+          <div class="row justify-content-end py-5">
+            <div class="col-lg-6 text-end">
+              <div class="text-center">
+                     <h1 class="meal-text" style="color: #FE6D01;margin-top: -90px;">Delicious</h1>
+              <h1 class="meal-text" style="color: #F40290;margin-bottom: 10px;">MEAL OFFER</h1>
+            
+              <button
+                class="signin-btn text-white fs-6 px-5 py-2"
+                type="button"
+                style="margin-left: 100px;"
+              >
+                VIEW MENU
+              </button>
+              <p  class="text-black " style="margin-left: 75px;"> <b>No substitutions. Participation may vary. Limited time offer. Cannot be combined with other offers. Exclusions and terms apply.</b></p>
+              </div>
+         
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <div class="container-fluid  text-uppercase   menu">
+        <div class="row  mt-5">
+            <div class="col-md-6 ">
+                <div class="image1 rounded pe-0 hover-effect">
+                    <p class="pt-3 ps-4 text-white mx-2 fs-6"><b>ESPRESSO DRINKS</b>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 pt-3 pt-md-0">
+                <div class="row gy-3 ">
+                    <div class="col-sm-12 image2 rounded hover-effect">
+                      <p class="pt-3 ps-4 text-black mx-2 fs-6"><b>BREAKFAST SANDWICHES</b>
+                    </div>
+                    <div class="col-sm-12 rounded  image3 hover-effect">
+                       
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="max-width: 100%;">
+      <div class="row g-0">
+       
+        <div class="col-md-8">
+          <div class="card-body text-center">
+            <h5 class="card-title large py-5">GIVE THE GIFT OF GO</h5>
+            <p class="card-text fs-4">You got the go. We got the keep going. Send a friend a boost on you!</p>
+            <a  href="./menu.html">
+               <button
+            class="signin-btn text-white fs-6 px-5 py-2"
+            type="button"
+           
+            
+          >
+            VIEW MENU
+          </button>
+            </a>
+           
+          </div>
+          
+        </div>
+        <div class="col-md-4 ">
+          <img src="./assets/Standard_giftcard_Desktop.svg" class="img-fluid rounded-start  " alt="...">
+        </div>
+      </div>
+    </div>
+    <div id="footer-container"></div> 
+   <script>
+function submitForm(event) {
+    event.preventDefault(); 
+    const searchValue = document.getElementById("searchInput").value.trim();
+    console.log(searchValue);
+}
+   </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="./footer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+
+.contact{
+    background: url(./assets/Contact_Us_Header_desktop.png)no-repeat;
+    background-size: contain;
+    height: 80vh;
+    background-position: 50% 50%;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.first_col {
+    background-color: white;
+    height: 550px;
+    box-shadow: #250111 0px 5px 15px;
+    position: relative;
+    width: 450px;
+    left: 350px;
+    top: 71px;
+    border-radius: 20px;
+}
+
+.img-fluid {
+    border-radius: 20px;
+}
+
+
+.send {
+    background-color: #a8094e;
+    border: #a8094e;
+
+}
+
+.send:hover {
+    background-color: #c80459 !important;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .first_col {
+        position: initial;
+        left: 0 !important;
+    }
+
+   
+  
+}
+@media only screen and (max-width: 600px) {
+    .first_col {
+        position: initial;
+        left: 0 !important;
+    }
+
+    .sec_col {
+        order: 1 !important;
+    }
+
+  
+}
